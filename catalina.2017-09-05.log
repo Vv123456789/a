@@ -1,0 +1,99 @@
+05-Sep-2017 15:41:51.561 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'userBodyEncodingForURI' to 'true' did not find a matching property.
+05-Sep-2017 15:41:51.647 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+05-Sep-2017 15:41:51.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.32
+05-Sep-2017 15:41:51.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 2 2016 19:34:53 UTC
+05-Sep-2017 15:41:51.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.32.0
+05-Sep-2017 15:41:51.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Sep-2017 15:41:51.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-514.el7.x86_64
+05-Sep-2017 15:41:51.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2017 15:41:51.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.7.0_51/jre
+05-Sep-2017 15:41:51.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_51-b13
+05-Sep-2017 15:41:51.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2017 15:41:51.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat7/apache-tomcat-8.0.32
+05-Sep-2017 15:41:51.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat7/apache-tomcat-8.0.32
+05-Sep-2017 15:41:51.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat7/apache-tomcat-8.0.32/conf/logging.properties
+05-Sep-2017 15:41:51.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2017 15:41:51.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/usr/local/tomcat7/apache-tomcat-8.0.32/endorsed
+05-Sep-2017 15:41:51.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat7/apache-tomcat-8.0.32
+05-Sep-2017 15:41:51.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat7/apache-tomcat-8.0.32
+05-Sep-2017 15:41:51.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat7/apache-tomcat-8.0.32/temp
+05-Sep-2017 15:41:51.665 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+05-Sep-2017 15:41:51.807 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-2080"]
+05-Sep-2017 15:41:51.822 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Sep-2017 15:41:51.844 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Sep-2017 15:41:51.846 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Sep-2017 15:41:51.851 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 796 ms
+05-Sep-2017 15:41:51.908 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Sep-2017 15:41:51.908 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.32
+05-Sep-2017 15:41:56.292 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2017 15:41:56.530 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+05-Sep-2017 15:42:21.578 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [25,046] milliseconds.
+05-Sep-2017 15:42:21.578 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
+05-Sep-2017 15:42:21.595 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat7/apache-tomcat-8.0.32/webapps/host-manager
+05-Sep-2017 15:42:21.633 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat7/apache-tomcat-8.0.32/webapps/host-manager has finished in 38 ms
+05-Sep-2017 15:42:21.633 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat7/apache-tomcat-8.0.32/webapps/docs
+05-Sep-2017 15:42:21.649 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat7/apache-tomcat-8.0.32/webapps/docs has finished in 16 ms
+05-Sep-2017 15:42:21.649 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat7/apache-tomcat-8.0.32/webapps/manager
+05-Sep-2017 15:42:21.672 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat7/apache-tomcat-8.0.32/webapps/manager has finished in 22 ms
+05-Sep-2017 15:42:21.672 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat7/apache-tomcat-8.0.32/webapps/examples
+05-Sep-2017 15:42:21.852 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat7/apache-tomcat-8.0.32/webapps/examples has finished in 180 ms
+05-Sep-2017 15:42:21.871 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-2080"]
+05-Sep-2017 15:42:21.876 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Sep-2017 15:42:21.877 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 30026 ms
+05-Sep-2017 15:50:39.380 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'userBodyEncodingForURI' to 'true' did not find a matching property.
+05-Sep-2017 15:50:39.445 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 141 column 11: The element type "Host" must be terminated by the matching end-tag "</Host>".
+ org.xml.sax.SAXParseException; systemId: file:/usr/local/tomcat7/apache-tomcat-8.0.32/conf/server.xml; lineNumber: 141; columnNumber: 11; The element type "Host" must be terminated by the matching end-tag "</Host>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1748)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2957)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:649)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1451)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:552)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:603)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+
+05-Sep-2017 15:50:39.446 WARNING [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: The element type "Host" must be terminated by the matching end-tag "</Host>".
+05-Sep-2017 15:50:39.451 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'userBodyEncodingForURI' to 'true' did not find a matching property.
+05-Sep-2017 15:50:39.453 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 141 column 11: The element type "Host" must be terminated by the matching end-tag "</Host>".
+ org.xml.sax.SAXParseException; systemId: file:/usr/local/tomcat7/apache-tomcat-8.0.32/conf/server.xml; lineNumber: 141; columnNumber: 11; The element type "Host" must be terminated by the matching end-tag "</Host>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1748)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2957)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:649)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1451)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:552)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:617)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:351)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+
+05-Sep-2017 15:50:39.453 WARNING [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: The element type "Host" must be terminated by the matching end-tag "</Host>".
+05-Sep-2017 15:50:39.453 SEVERE [1] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
